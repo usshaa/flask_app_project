@@ -78,4 +78,4 @@ Visit [http://127.0.0.1:5000](http://127.0.0.1:5000) in your browser.
 
 ---
 
-© 2025 Flask Tutorial by OpenAI ChatGPT
+© 2025 Flask Tutorial
