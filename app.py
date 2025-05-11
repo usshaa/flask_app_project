@@ -18,7 +18,8 @@ def home():
 
 @app.route('/about')
 def about():
-    return f"This is the About page. Go back to <a href='{{ url_for('home') }}'>Home</a>"
+    home_url = url_for('home')
+    return f"This is the About page. Go back to <a href='{home_url}'>Home</a>"
 
 @app.route('/login', methods=['GET', 'POST'])
 def login():
